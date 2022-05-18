@@ -1,0 +1,519 @@
+@media screen and (max-width: 1023px) {
+    .header {
+        flex-direction:column;
+    }
+
+    .imagencolegio {
+        width: 100%;
+    }
+
+    .section1 {
+        height:100% ;
+        width: 100%;
+    }
+
+    .piedeimagen__manuscrita {
+        font-size: x-large;
+        margin: 0 auto;
+        justify-self: center;
+        text-align: center;
+     
+    }
+
+    .piedeimagen__texto {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .footer__texto {
+        font-size: small;
+        line-height: 20px;
+    }
+
+    .footer__contacto {
+        font-size: small;
+    }
+
+    .footer__logo {
+        width: 200px;
+    }
+
+
+    
+    .main__sistemaeducativo {
+        font-size: 100%;
+    }
+
+    .jardindeinfantes__titulo {
+        font-size: medium;
+    }
+
+    .jardindeinfantes {
+        font-size: medium;
+    }
+
+    .primaria__titulo {
+        font-size: medium;
+    }
+
+    .secundario__titulo {
+        font-size: medium;
+    }
+
+    .fotos {
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%; ;
+        
+    }
+
+    .fotos__jardin {
+        width: 30%;
+        height: 30%;
+        
+    }
+
+    .fotos__primaria {
+        width: 30%;
+        height: 30%;
+    }
+
+    .fotos__secundario {
+        width: 30%;
+        height: 30%;
+    }
+
+    .historia {
+        font-size: 100%;
+    }
+
+    .subtitulo {
+        font-size: small;
+    }
+
+    .texto1 {
+        font-size: small;
+    }
+
+    .titulo1 {
+        font-size: 100%;
+    }
+
+    .subtitulo2 {
+        font-size: small;
+    }
+
+    .historia1 {
+        width: 80%;
+        
+        margin-right: auto;
+        margin-left: auto;
+        display: table-cell;
+        vertical-align: middle;
+        
+    }
+
+    .historia2 {
+        width: 500px;
+        margin: 1rem;
+        margin-right: auto;
+        margin-left: auto;
+        display: table-cell;
+        vertical-align: middle;
+        
+    }
+
+    .contenedor{
+        width: 100%;
+    }
+
+    .viajes {
+        font-size: 100%;
+    }
+
+    .imagenes1 {
+     
+        position: relative;
+     
+      
+        
+        justify-self: center;
+        height: auto;
+        align-items: center;
+       
+    }
+   
+
+    .img1 {
+        width: 50%;
+        height: auto;
+      
+       
+    }
+
+    .img2 {
+        width: 50%;
+        height: auto;
+     
+      
+    }
+
+    .titulo {
+        font-size: medium;
+    }
+
+    .titulo__large {
+        font-size: medium;
+    }
+
+    .texto {
+        font-size: small;
+    }
+
+    .texto__lista {
+        font-size: small;
+    }
+
+    .travel__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 300px);
+        gap: 3rem;
+
+    }
+
+    .travel__imagen {
+        width: 30%;
+        gap: 3rem;
+        height: auto;
+    }
+
+    .contacto {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .form {
+        width: 800px;
+        align-self: center;
+       
+    }
+
+    .label {
+        font-size: small;
+        align-self:flex-start;
+        margin-left: 6rem;
+    }
+
+    .input {
+        width: 80%;
+        align-self: center;
+    }
+
+    .input__mensaje {
+        width: 80%;
+        align-self: center;
+    }
+
+    .button {
+        width: 15rem;
+        font-size: small;
+        align-self: center;
+        height: 3rem;
+    }
+
+    .google {
+        width: 100%;
+        margin: 1rem;
+        justify-self: center;
+       
+        
+       
+
+    }
+
+    .google__maps {
+        width: 100%;
+        justify-self: center;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        
+     
+    }
+
+    .contacto__row {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .nav {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        flex-direction: row;
+        
+    }
+
+    .header__open {
+        margin-right: 1rem;
+        display: block;
+        font-size: 32px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .header__logo {
+        width:70%;
+        height: auto;
+        margin-left: 1rem;
+        
+        
+    }
+
+    .imagencolegio {
+        width: 100%;
+        display: table-cell;
+        vertical-align: middle;
+       
+    }
+
+    .main {
+        height: 100%;
+        min-height: 0;
+    }
+
+    .section1 {
+        height:130% ;
+        width: 100%;
+    }
+
+       
+
+    .piedeimagen {
+        width: 100%;;
+    }
+
+    .piedeimagen__manuscrita {
+      
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+    }
+
+    .piedeimagen__texto {
+        font-size: small;
+        text-align: center;
+    }
+
+    .footer {
+        flex-direction: column-reverse;   
+    }
+  
+    .column {
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1rem;
+    }
+
+    .secundario {
+        margin: 2rem;
+    }
+
+    .secundario__titulo {
+        margin: 1rem;
+    }
+
+    .fotos {
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%; 
+        gap: 1rem;
+    }
+
+    .fotos__jardin {
+        width: 80%;
+    }
+
+    .fotos__primaria {
+        width: 80%;
+    }
+
+    .fotos__secundario {
+        width: 80%;
+    }
+
+    .imagenes1 {
+        margin: 0 auto;
+    }
+
+    .travel__grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 300px);
+        
+    }
+
+    .travel__imagen {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 500px;
+        align-self: center;
+        text-align: start;
+       
+    }
+
+    .label {
+        font-size: small;
+        align-self:flex-start;
+        margin-left: 4rem;
+        
+    }
+
+    .input {
+        width: 80%;
+        align-self: center;
+    }
+
+    .input__mensaje {
+        width: 80%;
+        align-self: center;
+    }
+
+    .imagenes1 {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .historia2 {
+        width: 70%;
+        height: auto;
+
+    }
+
+    .img1 {
+        width:85%
+    }
+
+    .img2 {
+        width:85%
+    }
+
+    .jam-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #lateral {
+        display: block;
+        background:  #446084;
+        background-image: linear-gradient(to bottom, #446084, #d7e6ef );
+        background-image: linear-gradient(to bottom, #2991d6, #d7e6ef );
+        width: 40%;
+        height: 100vh;
+        opacity: 0.96; 
+       position: fixed;
+       top: 0;
+       right: -100%;
+       z-index: 10;
+       transition: right 1s;
+       padding-left: 5%;
+       padding-top: 5%;
+      
+
+    }
+
+    #lateral:target {
+        right: 0;
+        display: block;
+        
+    }
+    
+
+    .nav__lista {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        position: relative;
+        
+        line-height: 2.5rem;
+    
+    }
+
+    .jam-close-rectangle {
+       
+        font-size: x-large;
+        display: block;
+        
+    }
+
+    .nav__enlace {
+        font-size: medium;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+
+    
+
+    
+}
+
+
+    
+
+
+/* 
+
+.google {
+    display: flex;
+    margin: 2rem;
+    width: 500px;
+   
+}
+
+.map__imagen {
+    margin-right: 1rem;
+    float: right;
+    top: 20;
+    width: 1100px;
+    height: 1100px; 
+
+.section1 {
+    background-color:   #d7e6ef;
+    width: 100%;
+    height: 800px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__open {
+    display: none;
+}
+*/

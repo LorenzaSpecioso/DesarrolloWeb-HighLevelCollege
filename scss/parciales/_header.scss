@@ -1,0 +1,90 @@
+/* HEADER (all pages) */ 
+
+.header {
+    background-color: $color-principal;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    top: 0;    
+
+    &__marca {
+        width: 200px;
+        height: auto;
+        align-content: center;
+        
+    
+    }
+    
+    &__logo {
+        width: 12rem;
+        height: auto;
+        align-self: center;
+        margin-left: 1rem;
+        
+    }
+
+    &__open {
+        display: none;
+    }
+}
+
+.jam-close-rectangle {
+    display: none;
+}
+
+
+
+.nav {
+    padding: 1rem;
+    letter-spacing: 2px;
+    justify-content: space-evenly;
+
+    &__lista {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       margin-right: 10px;
+    
+    }
+    
+    
+    &__item {
+        margin-left: 16px;
+        font-size: small;
+        
+    }
+    
+    &__enlace {
+        color: #fff; 
+        text-decoration: none;
+        position: relative;
+
+        &:after {
+            content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: aliceblue;
+        /*Animacion de derecha a izquierda*/ 
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.2s ease-in-out;
+        }
+
+        &:hover:after {
+            /*Tnimacion de dercha a izquierda*/
+        transform-origin: left;
+        transform: scaleX(1);
+        }
+    }
+
+}
+

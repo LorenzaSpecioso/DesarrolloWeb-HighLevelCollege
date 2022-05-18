@@ -1,0 +1,45 @@
+
+/* FOOTER (all pages) */ 
+
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1rem;
+    min-height: 100px;
+
+    &__logo {
+        padding: 1rem;
+       width: 15rem;
+    
+       
+    }
+    
+    &__contacto {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        gap: 0,8rem;
+        width: 12,5rem;
+        text-align: center;
+        font-size: small;
+        color: $color-texto;
+       
+    }
+    
+    &__texto {
+        display: inline-block;
+        margin: 1rem;
+        width: 20rem;
+        font-size: small;
+        color: $color-texto;
+        line-height: 20px;
+        text-align: center;
+       
+    }
+
+}
+
+

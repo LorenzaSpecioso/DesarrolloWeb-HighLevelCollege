@@ -1,0 +1,163 @@
+/* NOSOTROS - MAIN */ 
+
+.main__sistemaeducativo {
+    text-align: center;
+    font-size: 150%;
+    font-family:montserrat;
+    color: #555;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.niveles {
+    background-color: #eaeaea;
+    color: #777;
+    min-height: 100vh;
+    padding: 100px 0;
+    text-align: center;
+    object-fit: cover;
+}
+
+.título__nosotros {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $color-principal;
+    margin-bottom: 1rem;
+}
+
+.texto__nosotros {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+}
+
+.imagennivel {
+    margin: 1rem;
+}
+
+
+
+
+/*
+
+.column {
+    display:flex;
+    color: black;
+
+}
+
+
+
+
+
+.jardindeinfantes__titulo {
+    text-align: center;
+    
+    font-size: 200%;
+    margin: 1rem;
+    color: #777;
+    margin: 2rem;
+    font-size: large;
+    font-family: montserrat;
+}
+
+.jardindeinfantes {
+    flex-direction: column;
+    margin: 2rem;
+    width: 200%;
+    font-family: montserrat;
+    line-height: 25px;
+    color: #777;
+
+}
+
+.primaria__titulo {
+    text-align: center;
+    
+    font-size: 200%;
+    margin: 1rem;
+    color: #777;
+    margin: 2rem;
+    font-size: large;
+    font-family: montserrat;
+}
+.primaria {
+    flex-direction: column;
+    margin: 2rem;
+    width: 200%;
+    font-family: montserrat;
+    line-height: 25px;
+    color: #777;
+}
+
+.secundario__titulo {
+    text-align: center;
+    
+    font-size: 200%;
+    margin: 1rem;
+    color: #777;
+    margin: 2rem;
+    font-size: large;
+    font-family: montserrat;
+}
+
+.secundario {
+    flex-direction: column;
+    margin: 2rem;
+    width: 200%;
+    font-family: montserrat;
+    line-height: 25px;
+    color: #777;
+}
+*/
+
+
+.contenedordefotos {
+    width: 100%;
+    height: auto;
+}
+.fotos {
+    display: flex;
+    flex-direction:row;
+    position:relative;
+    align-items: center;
+    
+    width: 100%;
+    height:auto ;
+    
+    border-radius: 8px;
+    align-content: space-between;
+    column-gap: 1%;
+    justify-content: space-between;
+   padding: 1rem;
+
+   &__jardin {
+    width: 30%;
+    height: auto;
+    
+    border-radius: 8px;
+
+}
+
+    &__primaria {
+    width: 30%;
+    height: auto;
+    
+    border-radius: 8px;
+}
+
+    &__secundario {
+    width: 30%;
+    height: auto;
+   
+   border-radius: 8px;
+}
+   
+}
+
+
+
+.separacion_al_footer {
+    height: 8px;
+    background-color: rgb(230, 241, 242);
+}

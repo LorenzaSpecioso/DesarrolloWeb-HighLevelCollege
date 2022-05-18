@@ -1,0 +1,77 @@
+/* HISTORIA - MAIN */ 
+
+
+.historia {
+    text-align: center;
+    font-size: 150%;
+    font-family:montserrat;
+    color: $color-texto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 130%;
+    font-family: montserrat;
+    color: $color-texto;
+    margin: 1rem 1rem 2rem 1rem;
+    line-height: 25px;
+}
+ 
+.texto1 {
+    text-align: left;
+    font-size: 130%;
+    font-family: montserrat;
+    color: $color-texto;
+    margin: 2rem;
+    line-height: 25px;
+}
+
+.contenedorhistoria {
+    align-self: center;
+}
+
+.historia1 {
+    vertical-align: middle;
+    width: 70%;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+}
+
+.historia2 {
+    vertical-align: middle;
+    width: 70%;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    justify-items: center;
+}
+
+.titulo1 {
+    color: $color-texto;
+    text-align: left;
+    margin: 2rem;
+    font-size: x-large;
+    font-family: montserrat;
+
+}
+
+.subtitulo2 {
+    color: $color-texto;
+    text-align: left;
+    margin: 2rem;
+    font-size: medium;
+    font-family: montserrat;
+    font-size: 130%;
+
+}
+
+.separacion_al_footer {
+    height: 8px;
+    background-color: rgb(230, 241, 242);
+}

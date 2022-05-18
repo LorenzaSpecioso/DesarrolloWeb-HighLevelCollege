@@ -1,0 +1,148 @@
+/* VIAJES - MAIN */ 
+
+.imgviaje {
+    padding: 10px;
+  
+}
+
+.viajes {
+    text-align: center;
+    font-size: 150%;
+    font-family:montserrat;
+    color: $color-texto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.imagenes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
+.img1 {
+    left: -100%;
+    transform: translate(0);
+    transition: left 2s;
+}
+
+.titulo {
+        color: $color-texto;
+        text-align: left;
+        margin: 1rem;
+        font-size: 140%;
+        font-family: montserrat;
+    
+  
+}
+
+.texto {
+    text-align: left;
+    font-size: 130%;
+    font-family: montserrat;
+    color: $color-texto;
+    margin: 2rem;
+    line-height: 25px;
+
+    &__lista {
+        text-align: left;
+        font-size: 130%;
+        font-family: montserrat;
+        color: $color-texto;
+        margin: 2rem 2rem 2rem 3rem;
+        line-height: 25px;
+    }
+}
+
+
+
+.titulo__large {
+    color: $color-texto;
+    margin:2rem;
+    font-size: x-large;
+    font-family: montserrat;
+    
+}
+
+.travel__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 2rem;
+    margin: 4rem 2rem 2rem 2rem;
+}
+
+.travel__item {
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.travel__imagen {
+    width: 110%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+}
+
+.travel__item:hover .travel__imagen {
+    transform: rotate(8deg);
+
+}
+
+.imagenes2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.img3 {
+    width: 300px;
+}
+
+.img4 {
+    width: 300px;
+}
+
+.img5 {
+    width: 300px;
+}
+
+
+
+.imagenes3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.img6 {
+    width: 300px;
+    margin-left: 10rem;
+    height: 400px;
+}
+
+.img7 {
+    width: 300px;
+}
+
+.img8 {
+    width: 300px;
+    margin-right: 10rem;
+    height: 500px;
+}
+
+.separacion_al_footer {
+    height: 8px;
+    background-color: rgb(230, 241, 242);
+}

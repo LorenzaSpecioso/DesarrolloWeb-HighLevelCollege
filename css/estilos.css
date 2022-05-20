@@ -53,6 +53,7 @@ body {
   padding: 1rem;
   letter-spacing: 2px;
   justify-content: space-evenly;
+  padding-top: 2rem;
 }
 
 .nav__lista {
@@ -388,6 +389,7 @@ body {
 .carousel-item img {
   height: 500px;
   object-fit: cover;
+  padding-top: 80pxpx;
 }
 
 .section1 {
@@ -438,6 +440,7 @@ body {
   color: #555;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  padding-top: 120px;
 }
 
 .niveles {
@@ -588,6 +591,7 @@ body {
   color: #555;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  padding-top: 120px;
 }
 
 .subtitulo {
@@ -665,6 +669,7 @@ body {
   color: #555;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  padding-top: 120px;
 }
 
 .imagenes1 {
@@ -798,6 +803,7 @@ body {
   color: #555;
   font-family: montserrat;
   margin: 2rem 1rem 1rem 1rem;
+  padding-top: 120px;
 }
 
 .contacto .contacto__row {
@@ -1060,6 +1066,7 @@ body {
   .header {
     width: 100%;
     flex-direction: row;
+    height: 90px;
   }
   .header__open {
     margin-right: 1rem;

@@ -1,14 +1,13 @@
-/* HISTORIA - MAIN */ 
-
-
 .historia {
-    text-align: center;
-    font-size: 150%;
-    font-family:montserrat;
-    color: $color-texto;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    padding-top: 120px;
+    @extend .contacto;
+    margin-bottom: 3rem;
+}
+
+
+
+/* HISTORIA - MAIN */ 
+.titulo-historia {
+    @extend .titulo-contacto
 
 }
 

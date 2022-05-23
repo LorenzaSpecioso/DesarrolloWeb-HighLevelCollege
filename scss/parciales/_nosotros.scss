@@ -1,15 +1,13 @@
-/* NOSOTROS - MAIN */ 
-
-.main__sistemaeducativo {
-    text-align: center;
-    font-size: 150%;
-    font-family:montserrat;
-    color: #555;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    padding-top: 120px;
-
+.nosotros {
+    @extend .contacto
 }
+
+/* NOSOTROS - MAIN */ 
+.titulo-nosotros {
+    @extend .titulo-contacto
+    
+    }
+
 .niveles {
     background-color: #eaeaea;
     color: #777;

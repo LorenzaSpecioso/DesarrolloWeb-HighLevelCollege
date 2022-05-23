@@ -1,9 +1,9 @@
 /* INDEX - MAIN */ 
 
 .carousel-item img {
-    height: 500px;
+    height: 600px;
     object-fit: cover;
-    padding-top: 80pxpx;
+    padding-top: 100px;
 }
 
 .section1 {
@@ -33,15 +33,20 @@
     justify-content: center;
     align-items: center;
   
-    background-color: #d7e6ef;
+    background-image: url(/images/imagenesComprimidas/polygon-scatter-haikei-3.svg);
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 200px;
+    border: currentColor $color-principal;
 
     &__manuscrita {
-      font-family: halimun;
-      font-size:200%;
+      font-size: 300%;
+      font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      color: $color-principal;
       margin: 2rem 2rem 1rem 2rem;
-      color: #446084;
+      
     
   }
   

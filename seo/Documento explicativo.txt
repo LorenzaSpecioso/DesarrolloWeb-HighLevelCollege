@@ -1,0 +1,14 @@
+ Mejoré el rendimiento de mi sitio optimizando todas las imágenes del mismo. Para esto, comprimí con la herramienta "tinypng" todos los archivos .jpg y .png, logrando así reducir el 29% del total del peso de imágenes y luego, las volví a cargar a mi proyecto. Así mismo, con la herramienta Adobe Illustrator pasé a .svg los archivos .png que podían ser vectoriales: logotipo del header y del footer.
+
+
+SEO - SEARCH ENGINE OPTIMIZATION -
+
+Para la optimización de motores realicé los siguintes cambios:
+
+- Incluí en todas las páginas las palabras claves con la metaetiqueta de keywords y la descripción con la metaetiqueta de description, ambas etiquetas únicas para cada página.
+- Determiné títulos para la etiqueta title bien definidos, un título único para cada página.
+- Configuré la jerarquía de encabezados H1 hasta H6.
+- Organicé mejor las carpetas y los archivos en mi proyecto.
+- Corroboré mediante pruebas a usuarios que la navegación sea fácil e intuitiva y que los contenidos que busquen sean fáciles de encontrar tanto en vistas desktop, tablet y mobile.
+Contenido textual: en las pruebas a usuarios, se comprobó que los textos sean fáciles de leer; que inviten al usuario a leerlo. Controlé que no haya errores ortográficos y gramaticales. 
+- Sitio web responsive y optimizado para mobile: prueba de optimización para móviles LAS PÁGINAS ESTÁN OPTIMIZADAS PARA MÓVILES https://search.google.com/test/mobile-friendly/result?id=zzw5MJAsAM6jsEiPFwn66Q 

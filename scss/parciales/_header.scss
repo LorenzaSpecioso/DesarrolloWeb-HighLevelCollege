@@ -80,6 +80,11 @@
         transition: transform 0.2s ease-in-out;
         }
 
+        &:hover {
+            color: white;
+            font-weight: bold;
+        }
+
         &:hover:after {
             /*Tnimacion de dercha a izquierda*/
         transform-origin: left;

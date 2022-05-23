@@ -1,4 +1,4 @@
-/* VIAJES - MAIN */ 
+
 
 .imgviaje {
     padding: 10px;
@@ -6,13 +6,15 @@
 }
 
 .viajes {
-    text-align: center;
-    font-size: 150%;
-    font-family:montserrat;
-    color: $color-texto;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    padding-top: 120px;
+    @extend .contacto;
+    margin-bottom: 5rem;
+}
+
+/* VIAJES - MAIN */ 
+.titulo-viajes {
+    @extend .titulo-contacto;
+    
+    
 
 }
 

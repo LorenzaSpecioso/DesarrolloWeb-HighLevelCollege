@@ -1,18 +1,46 @@
-/* CONTACTO - MAIN */ 
 
 .contacto {
-    text-align:  center;
-    font-size: 150%;
-    color: $color-texto;
-    font-family: montserrat;
-    margin: 2rem 1rem 1rem 1rem;
-    padding-top: 120px;
-
-    .contacto__row {
-        display: flex;
-        flex-direction: row;
-    }
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(/images/imagenesComprimidas/polygon-scatter-haikei-2.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position:bottom;
+    width: 100%;
+    height: 700px;
+    padding-top: -200px;
+    position: relative;
+   
+    
 }
+
+/* CONTACTO - MAIN */ 
+.titulo-contacto {
+    text-align: center;
+    font-size: 300%;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $color-principal;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 120px;
+    font-weight: bold;
+    
+    
+}
+
+.jam-chevrons-down {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 10;
+    font-size: xx-large;
+    color: $color-principal;
+}
+
 
 .lineaseparadora {
     margin-bottom: 3rem;

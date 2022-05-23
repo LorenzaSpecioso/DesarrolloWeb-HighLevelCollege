@@ -2,19 +2,19 @@
     @extend .contacto
 }
 
-/* NOSOTROS - MAIN */ 
+
 .titulo-nosotros {
     @extend .titulo-contacto
     
     }
 
 .niveles {
-    background-color: #eaeaea;
     color: #777;
     min-height: 100vh;
     padding: 100px 0;
     text-align: center;
     object-fit: cover;
+    padding-top: 4rem;
 }
 
 .título__nosotros {

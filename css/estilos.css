@@ -355,7 +355,7 @@ body {
 
 /* FOOTER (all pages) */
 .footer {
-  background-color: white;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -392,7 +392,7 @@ body {
 
 /* INDEX - MAIN */
 .carousel-item img {
-  height: 380px;
+  height: 600px;
   object-fit: cover;
   padding-top: 90px;
 }
@@ -429,7 +429,7 @@ body {
 
 .piedeimagen__manuscrita {
   font-size: 300%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #2991d6;
   margin: 2rem 2rem 1rem 2rem;
@@ -464,7 +464,9 @@ body {
 }
 
 .imagennivel {
-  margin: 1rem;
+  margin: 0.5rem;
+  width: 100%;
+  height: 100%;
 }
 
 /*
@@ -591,8 +593,8 @@ body {
   font-size: 130%;
   font-family: montserrat;
   color: #555;
-  margin: 1rem 1rem 2rem 1rem;
-  line-height: 25px;
+  margin: 2;
+  line-height: 35px;
 }
 
 .texto1 {
@@ -601,7 +603,7 @@ body {
   font-family: montserrat;
   color: #555;
   margin: 2rem;
-  line-height: 25px;
+  line-height: 35px;
 }
 
 .contenedorhistoria {
@@ -733,6 +735,10 @@ body {
   transform: rotate(8deg);
 }
 
+.galeria-img {
+  margin-bottom: 4rem;
+}
+
 .imagenes2 {
   display: flex;
   flex-direction: row;
@@ -793,7 +799,7 @@ body {
   background-repeat: repeat-y;
   background-position: bottom;
   width: 100%;
-  height: 700px;
+  height: 500px;
   padding-top: -200px;
   position: relative;
 }
@@ -1027,7 +1033,7 @@ body {
   }
   .contacto, .nosotros, .historia, .viajes {
     margin-top: 5rem;
-    height: 300px;
+    height: 400px;
   }
   .titulo-contacto, .titulo-nosotros, .titulo-historia, .titulo-viajes {
     font-size: 150%;
@@ -1083,6 +1089,7 @@ body {
     height: 300px;
     background-image: url(/images/imagenesComprimidas/polygon-scatter-haikei-mobile.svg);
     object-fit: cover;
+    background-position: left;
   }
   .titulo-contacto, .titulo-nosotros, .titulo-historia, .titulo-viajes {
     font-size: x-large;

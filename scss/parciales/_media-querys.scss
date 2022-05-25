@@ -88,6 +88,7 @@
         height: 30%;
     }
 
+
     .historia {
         font-size: 100%;
         margin-top: 4rem;
@@ -196,7 +197,7 @@
 
     .contacto {
         margin-top: 5rem;
-        height: 300px;
+        height: 400px;
     }
 
     .titulo-contacto {
@@ -272,6 +273,7 @@
         height: 300px;
         background-image: url(/images/imagenesComprimidas/polygon-scatter-haikei-mobile.svg);
         object-fit: cover;
+        background-position:left;
 
     }
 
@@ -381,6 +383,7 @@
     .fotos__secundario {
         width: 80%;
     }
+
 
     .imagenes1 {
         margin: 0 auto;

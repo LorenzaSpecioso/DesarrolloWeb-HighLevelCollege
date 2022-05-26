@@ -1,0 +1,6 @@
+@mixin generarFlex ($flex, $direction, $eje-principal, $eje-secundario) {
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+}

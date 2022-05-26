@@ -24,17 +24,19 @@
     margin-bottom: 1rem;
 }
 
+/*APLICANDO MIXING - CON MAP-GET*/
+
 .texto__nosotros {
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: map-get($estilos, tFuente);
+    font-family: montserrat;
     margin: 1rem;
+    text-align: map-get($estilos, centro);
+    color: map-get($estilos, color);
+    line-height: map-get($estilos, interlineado);
 }
 
-
 .imagennivel {
-    margin: 0.5rem;
-    width: 100%;
-    height: 100%;
+    margin: 1rem;
 }
 
 

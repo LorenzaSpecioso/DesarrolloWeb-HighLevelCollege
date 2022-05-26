@@ -42,21 +42,22 @@
   
 }
 
+
 .texto {
     text-align: left;
-    font-size: 130%;
+    font-size: map-get($estilos, tFuente);
     font-family: montserrat;
-    color: $color-texto;
+    color: map-get($estilos, color);
     margin: 2rem;
-    line-height: 25px;
+    line-height: map-get($estilos, interlineado);
 
     &__lista {
         text-align: left;
-        font-size: 130%;
+        font-size: map-get($estilos, tFuente);
         font-family: montserrat;
         color: $color-texto;
         margin: 2rem 2rem 2rem 3rem;
-        line-height: 25px;
+        line-height: map-get($estilos, interlineado);
     }
 }
 
@@ -97,10 +98,6 @@
 .travel__item:hover .travel__imagen {
     transform: rotate(8deg);
 
-}
-
-.galeria-img {
-    margin-bottom: 4rem;
 }
 
 .imagenes2 {

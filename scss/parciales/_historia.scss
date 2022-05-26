@@ -11,22 +11,29 @@
 
 }
 
+/*APLICANDO MIXING - CON MAP-GET*/
+
 .subtitulo {
-    text-align: center;
-    font-size: 130%;
+    text-align: map-get($estilos, centro);
+    font-size: map-get($estilos, tFuente);
     font-family: montserrat;
-    color: $color-texto;
-    margin: 2;
-    line-height: 35px;
+    color: map-get($estilos, color);
+    margin: 1rem 1rem 2rem 1rem;
+    line-height: map-get($estilos, interlineado);
+    font-weight: bold;
 }
  
+/*APLICANDO MIXING - CON MAP-GET*/
+
 .texto1 {
-    text-align: left;
-    font-size: 130%;
+    text-align: map-get($estilos, left);
+    font-size: map-get($estilos, tFuente);
     font-family: montserrat;
-    color: $color-texto;
+    color: map-get($estilos, color);
     margin: 2rem;
-    line-height: 35px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    line-height: map-get($estilos, interlineado);
 }
 
 .contenedorhistoria {
@@ -36,7 +43,7 @@
 .historia1 {
     vertical-align: middle;
     width: 70%;
-    margin-left: 9rem;
+    margin-left: 10rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     border-radius: 8px;
@@ -45,7 +52,7 @@
 .historia2 {
     vertical-align: middle;
     width: 70%;
-    margin-left: 9rem;
+    margin-left: 10rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     border-radius: 8px;
@@ -53,21 +60,28 @@
 }
 
 .titulo1 {
-    color: $color-texto;
-    text-align: left;
-    margin: 2rem;
+    color: map-get($estilos, color);
+    text-align: map-get($estilos, left);
     font-size: x-large;
     font-family: montserrat;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+
 
 }
 
 .subtitulo2 {
     color: $color-texto;
     text-align: left;
-    margin: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     font-size: medium;
     font-family: montserrat;
     font-size: 130%;
+    margin-bottom: 1rem;
 
 }
 

@@ -28,7 +28,11 @@
 
 
 .piedeimagen {
-    @include flexbox(flex, column, nowrap, center, center);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
     background-image: url(/images/imagenesComprimidas/polygon-scatter-haikei-3.svg);
     background-size: cover;
     background-attachment: fixed;
@@ -38,7 +42,7 @@
 
     &__manuscrita {
       font-size: 300%;
-      font-family:'Montserrat', sans-serif;
+      font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-weight: bold;
       color: $color-principal;
       margin: 2rem 2rem 1rem 2rem;

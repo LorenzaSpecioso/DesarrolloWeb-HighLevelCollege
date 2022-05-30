@@ -22,6 +22,8 @@
     line-height: map-get($estilos, interlineado);
     font-weight: bold;
 }
+
+
  
 /*APLICANDO MIXING - CON MAP-GET*/
 
@@ -30,57 +32,62 @@
     font-size: map-get($estilos, tFuente);
     font-family: montserrat;
     color: map-get($estilos, color);
-    margin: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-bottom: 2rem;
     line-height: map-get($estilos, interlineado);
+    width: 45%;
+    margin-left: 2rem;
 }
 
 .contenedorhistoria {
     align-self: center;
+    text-align: center;
 }
 
 .historia1 {
     vertical-align: middle;
     width: 70%;
-    margin-left: 10rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     border-radius: 8px;
+  
 }
 
 .historia2 {
     vertical-align: middle;
     width: 70%;
-    margin-left: 10rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     border-radius: 8px;
     justify-items: center;
 }
 
+.fila {
+    width: 100%;
+    justify-content: center;
+    margin-top: 4rem;
+    text-align: center;
+}
+
 .titulo1 {
-    color: map-get($estilos, color);
+    color: $color-principal;
     text-align: map-get($estilos, left);
-    font-size: x-large;
-    font-family: montserrat;
-    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     margin-left: 4rem;
     margin-bottom: 2rem;
-    text-decoration: underline;
-
+    text-align: center;
 
 }
 
 .subtitulo2 {
-    color: $color-texto;
+    color: map-get($estilos, color);
     text-align: left;
     margin-left: 4rem;
     margin-right: 4rem;
     font-size: medium;
     font-family: montserrat;
-    font-size: 130%;
+    font-size: 20px;
     margin-bottom: 1rem;
 
 }
@@ -88,4 +95,20 @@
 .separacion_al_footer {
     height: 8px;
     background-color: rgb(230, 241, 242);
+}
+
+
+
+.columnahistoria {
+    display: flex;
+    flex-direction: row;
+}
+
+.suctitulo2 {
+    text-align: map-get($estilos, centro);
+    font-size: map-get($estilos, tFuente);
+    font-family: montserrat;
+    color: map-get($estilos, color);
+    margin: 1rem 1rem 2rem 1rem;
+    line-height: map-get($estilos, interlineado);
 }

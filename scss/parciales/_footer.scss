@@ -2,9 +2,6 @@
 /* FOOTER (all pages) */ 
 
 
-.margen-footer {
-  margin: 0;
-}
 
 ::selection {
   background: $primary-orange;
@@ -12,8 +9,7 @@
 }
 
 .footer_img {
-    width: 180px;
-    padding-top: 1.5rem;
+    width: 150px;
 }
 
 footer {
@@ -35,17 +31,17 @@ footer {
     .nav-link {
       padding: 0.1rem 0;
       color: whitesmoke;
-      font-size: 14px;
+      font-size: 10px;
       text-align: center;
     }
 
     span.nav-link {
       color: whitesmoke;
-      font-size: 14px;
+      font-size: 10px;
       text-align: centro;
     }
     span.footer-title {
-      font-size: 14px;
+      font-size: 10px;
       font-weight: 700;
       color: #fff;
       text-transform: uppercase;
@@ -62,6 +58,7 @@ footer {
     display: inline-block;
     @media (min-width: 768px) {
       text-align: center;
+      padding-bottom: 0;
     }
 
   }
@@ -153,3 +150,6 @@ ul.social-buttons {
   
 }
 
+.text-center {
+  height: 68%;
+}

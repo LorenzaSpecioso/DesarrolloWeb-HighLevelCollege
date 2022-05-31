@@ -2,15 +2,20 @@
     width: 33%;
 }
 
-.margen-footer {
-    padding: 2rem;
-}
 
 
 
 @media screen and (max-width: 1023px) {
     .header {
         flex-direction:column;
+    }
+
+
+
+    .footer { 
+        padding-top: 0;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     .row {
@@ -130,7 +135,6 @@
 
     .historia {
         font-size: 100%;
-        margin-top: 4rem;
     }
 
     .subtitulo {
@@ -192,15 +196,11 @@
 
     .viajes {
         font-size: 100%;
-        margin-top: 4rem;
     }
 
     .imagenes1 {
      
         position: relative;
-     
-      
-        
         justify-self: center;
         height: auto;
         align-items: center;
@@ -256,9 +256,9 @@
     }
 
     .contacto {
-        margin-top: 5rem;
-  
+        height: 400px;
     }
+
 
     .titulo-contacto {
         font-size: 150%;
@@ -328,6 +328,25 @@
     .video__reproductor {
         padding-top: 0;
     }
+
+   .carousel-inner {
+       margin-top: 2.1rem;
+   }
+
+  .header__logo {
+      padding-top: 1rem;
+  }
+
+  .nav {
+      padding: 0;
+      padding-top: 1rem;
+  }
+
+  .subtitulo2--3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
 }
 
 
@@ -344,8 +363,10 @@
 
     .carousel-item img {
         height: 360px;
-        padding-top: 28%;
+        margin-top: 1%;
     }
+
+
 
     .flex-column ul {
         padding-left: 0;

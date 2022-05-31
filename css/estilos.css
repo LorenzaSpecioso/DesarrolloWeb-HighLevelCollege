@@ -5,7 +5,7 @@
 /* HEADER (all pages) */
 .header {
   background-color: #2991d6;
-  opacity: 90%;
+  opacity: 95%;
   padding: 8px;
   display: flex;
   flex-direction: row;
@@ -358,18 +358,13 @@ body {
 }
 
 /* FOOTER (all pages) */
-.margen-footer {
-  margin: 0;
-}
-
 ::selection {
   background: #fec503;
   text-shadow: none;
 }
 
 .footer_img {
-  width: 180px;
-  padding-top: 1.5rem;
+  width: 150px;
 }
 
 footer {
@@ -395,18 +390,18 @@ footer {
 .footer-column .nav-item .nav-link {
   padding: 0.1rem 0;
   color: whitesmoke;
-  font-size: 14px;
+  font-size: 10px;
   text-align: center;
 }
 
 .footer-column .nav-item span.nav-link {
   color: whitesmoke;
-  font-size: 14px;
+  font-size: 10px;
   text-align: centro;
 }
 
 .footer-column .nav-item span.footer-title {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -428,6 +423,7 @@ footer {
 @media (min-width: 768px) {
   .footer-column ul {
     text-align: center;
+    padding-bottom: 0;
   }
 }
 
@@ -505,11 +501,16 @@ ul.social-buttons .ul.social-buttons:hover {
   color: white;
 }
 
+.text-center {
+  height: 68%;
+}
+
 /* INDEX - MAIN */
 .carousel-item img {
   height: 600px;
   object-fit: cover;
-  padding-top: 99px;
+  padding-top: 50px;
+  margin-top: 48px;
 }
 
 .section1 {
@@ -1066,13 +1067,14 @@ ul.social-buttons .ul.social-buttons:hover {
   width: 33%;
 }
 
-.margen-footer {
-  padding: 2rem;
-}
-
 @media screen and (max-width: 1023px) {
   .header {
     flex-direction: column;
+  }
+  .footer {
+    padding-top: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .row {
     text-align: center;
@@ -1160,7 +1162,6 @@ ul.social-buttons .ul.social-buttons:hover {
   }
   .historia {
     font-size: 100%;
-    margin-top: 4rem;
   }
   .subtitulo {
     font-size: smaller;
@@ -1206,7 +1207,6 @@ ul.social-buttons .ul.social-buttons:hover {
   }
   .viajes {
     font-size: 100%;
-    margin-top: 4rem;
   }
   .imagenes1 {
     position: relative;
@@ -1248,7 +1248,7 @@ ul.social-buttons .ul.social-buttons:hover {
     height: auto;
   }
   .contacto, .nosotros, .historia, .viajes {
-    margin-top: 5rem;
+    height: 400px;
   }
   .titulo-contacto, .titulo-nosotros, .titulo-historia, .titulo-viajes {
     font-size: 150%;
@@ -1300,6 +1300,20 @@ ul.social-buttons .ul.social-buttons:hover {
   .video__reproductor {
     padding-top: 0;
   }
+  .carousel-inner {
+    margin-top: 2.1rem;
+  }
+  .header__logo {
+    padding-top: 1rem;
+  }
+  .nav {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .subtitulo2--3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1311,7 +1325,7 @@ ul.social-buttons .ul.social-buttons:hover {
   }
   .carousel-item img {
     height: 360px;
-    padding-top: 28%;
+    margin-top: 1%;
   }
   .flex-column ul {
     padding-left: 0;

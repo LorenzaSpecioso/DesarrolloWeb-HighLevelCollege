@@ -118,9 +118,7 @@ footer {
 
 
 
-ul.social-buttons {
-  margin-bottom: 0;
-}
+
 
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
@@ -172,7 +170,35 @@ a {
   color: #b2dafe ;
 }
 a:hover {
-  color: $primary-orange;
+  color: $primary-orange !important; 
   text-decoration: none;
+}
+
+.nav--item1:hover::after {
+  color: #fff;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+  color: #a80f0b;
+  .ul.social-buttons:hover{
+    color: $primary-orange;
+  }
+}
+.fas:hover {
+  color: #fff;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-whatsapp {
+  @extend .fa-instagram
+}
+
+.fa-facebook-f {
+  @extend .fa-instagram
+  
 }
 

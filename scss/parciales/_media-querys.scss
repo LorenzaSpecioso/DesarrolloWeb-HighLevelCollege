@@ -106,6 +106,8 @@
 
     .row {
         justify-content: center;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
     .tercerafoto {
@@ -119,6 +121,8 @@
 
     }
 
+
+
     .historia {
         font-size: 100%;
         margin-top: 4rem;
@@ -130,7 +134,6 @@
 
     .texto1 {
         font-size: small;
-        margin-left: 3rem;
     }
 
     .titulo1 {
@@ -139,9 +142,12 @@
     }
 
     .subtitulo2 {
-        font-size: small;
+        font-size: larger;
         line-height: 25px;
-        margin-left: 2.5rem;
+    }
+
+    .subtitulo2--4 {
+        text-align: left;
     }
 
     .historia1 {
@@ -154,10 +160,11 @@
         
     }
 
+
+
     .fila {
         width: 100%;
         justify-content: center;
-        margin-top: 4rem;
     }
 
     .container {
@@ -193,6 +200,10 @@
         height: auto;
         align-items: center;
        
+    }
+
+    .quick-links {
+        font-size: 60% !important;
     }
    
 
@@ -241,7 +252,7 @@
 
     .contacto {
         margin-top: 5rem;
-        height: 400px;
+        height: 300px;
     }
 
     .titulo-contacto {
@@ -317,6 +328,12 @@
 
 @media screen and (max-width: 600px) {
 
+
+    .subtitulo2 {
+        font-size: medium;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
 
     .carousel-item img {
         height: 360px;
@@ -495,8 +512,29 @@
 
     }
 
+    .subtitulo3 {
+        text-align: center;
+        margin-bottom: 0;
+
+        &--1 {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .fila {
+        margin-top: 0.5rem;
+    }
+
     .subtitulo {
         line-height: 25px;
+  
+    }
+
+  
+
+    .historia1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .img1 {
@@ -513,6 +551,7 @@
 
     .texto1 {
         width: 90%;
+        margin-bottom: 0;
     }
 
     .jam-menu {

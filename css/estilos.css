@@ -474,10 +474,6 @@ footer {
   }
 }
 
-ul.social-buttons {
-  margin-bottom: 0;
-}
-
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
@@ -527,8 +523,29 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #fec503 !important;
   text-decoration: none;
+}
+
+.nav--item1:hover::after {
+  color: #fff;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+  color: #a80f0b;
+}
+
+ul.social-buttons .ul.social-buttons:hover {
+  color: #fec503;
+}
+
+.fas:hover {
+  color: #fff;
+}
+
+.fa-instagram, .fa-whatsapp, .fa-facebook-f {
+  color: white;
 }
 
 /* INDEX - MAIN */
@@ -793,8 +810,8 @@ a:hover {
 .fila {
   width: 100%;
   justify-content: center;
-  margin-top: 4rem;
-  text-align: center;
+  margin-top: 1rem;
+  text-align: left;
 }
 
 .titulo1 {
@@ -807,15 +824,25 @@ a:hover {
   text-align: center;
 }
 
-.subtitulo2, .subtitulo3 {
+.subtitulo2 {
   color: #777;
-  text-align: left;
+  text-align: center;
   margin-left: 4rem;
-  margin-right: 4rem;
   font-size: medium;
   font-family: montserrat;
   font-size: 20px;
+  margin-bottom: 4rem;
+  margin-left: 0;
+}
+
+.subtitulo2--4 {
+  text-align: left;
+  margin-top: 3rem;
   margin-bottom: 1rem;
+}
+
+.fila--1 {
+  margin-top: 1rem;
 }
 
 .separacion_al_footer {
@@ -828,16 +855,14 @@ a:hover {
   flex-direction: row;
 }
 
-.suctitulo2 {
-  text-align: center;
+.subtitulo3 {
+  color: #777;
+  text-align: left;
+  margin-left: 4rem;
   font-size: medium;
   font-family: montserrat;
-  color: #777;
-  margin: 1rem 1rem 2rem 1rem;
-  line-height: 2rem;
-}
-
-.subtitulo3 {
+  font-size: 20px;
+  margin-left: 0;
   font-size: 15px;
 }
 
@@ -872,26 +897,17 @@ a:hover {
   font-family: montserrat;
 }
 
-.texto {
-  text-align: left;
-  font-size: medium;
-  font-family: montserrat;
-  color: #777;
-  margin: 2rem;
-  line-height: 2rem;
-}
-
-.texto__lista {
-  text-align: left;
-  font-size: medium;
-  font-family: montserrat;
-  color: #555;
-  margin: 2rem 2rem 2rem 3rem;
-  line-height: 2rem;
-}
-
 .galeria-viajes {
   margin-bottom: 2rem;
+}
+
+.subtitulo2--1 {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.subtitulo2--2 {
+  padding-left: 1.5rem;
 }
 
 .titulo__large {
@@ -1172,6 +1188,8 @@ a:hover {
   }
   .row {
     justify-content: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
   .tercerafoto {
     align-items: center;
@@ -1190,16 +1208,17 @@ a:hover {
   }
   .texto1 {
     font-size: small;
-    margin-left: 3rem;
   }
   .titulo1 {
     font-size: 100%;
     margin-left: 2.5rem;
   }
-  .subtitulo2, .subtitulo3 {
-    font-size: small;
+  .subtitulo2 {
+    font-size: larger;
     line-height: 25px;
-    margin-left: 2.5rem;
+  }
+  .subtitulo2--4 {
+    text-align: left;
   }
   .historia1 {
     width: 80%;
@@ -1211,7 +1230,6 @@ a:hover {
   .fila {
     width: 100%;
     justify-content: center;
-    margin-top: 4rem;
   }
   .container {
     max-width: 100%;
@@ -1236,6 +1254,9 @@ a:hover {
     justify-self: center;
     height: auto;
     align-items: center;
+  }
+  .quick-links {
+    font-size: 60% !important;
   }
   .img1 {
     width: 40%;
@@ -1269,7 +1290,7 @@ a:hover {
   }
   .contacto, .nosotros, .historia, .viajes {
     margin-top: 5rem;
-    height: 400px;
+    height: 300px;
   }
   .titulo-contacto, .titulo-nosotros, .titulo-historia, .titulo-viajes {
     font-size: 150%;
@@ -1324,6 +1345,11 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .subtitulo2 {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
   .carousel-item img {
     height: 360px;
   }
@@ -1453,8 +1479,22 @@ a:hover {
     width: 70%;
     height: auto;
   }
+  .subtitulo3 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .subtitulo3--1 {
+    margin-bottom: 2rem;
+  }
+  .fila {
+    margin-top: 0.5rem;
+  }
   .subtitulo {
     line-height: 25px;
+  }
+  .historia1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .img1 {
     width: 85%;
@@ -1467,6 +1507,7 @@ a:hover {
   }
   .texto1 {
     width: 90%;
+    margin-bottom: 0;
   }
   .jam-menu {
     display: flex;

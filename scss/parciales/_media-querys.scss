@@ -341,35 +341,6 @@
         margin-bottom: 2rem;
     }
 
-    .texto__texto {
-        font-size: xx-small;
-        padding-top: 0;
-        padding-left: 2rem;
-        margin-bottom: 0;
-        width: 90%;
-    }
-
-    .texto__ideario {
-        font-size: xx-small;
-        font-weight: bold;
-        padding-top: 1rem;
-    }
-
-    .footer__contacto {
-        font-size: xx-small;
-        padding-top: 0;
-        flex-direction: column;
-    }
-
-    .footer__logo {
-        width: 150px;
-        padding-bottom: 1rem;
-        padding-top: 0;
-    }
-
-    .footer__texto {
-        margin: 0;
-    }
 
     .nav {
         display: none;
@@ -434,11 +405,7 @@
         text-align: center;
     }
 
-    .footer {
-        flex-direction: column-reverse;   
-        height: 350px;
-    }
-  
+
     .column {
         flex-wrap: wrap;
         gap: 1rem;
@@ -613,9 +580,23 @@
         object-fit: cover;
         overflow: hidden;
     }
+
+ 
     
 }
 
+.nav-link {
+    padding: 0.1rem 0;
+    color: whitesmoke;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  span.nav-link {
+    color: whitesmoke;
+    font-size: 14px;
+    text-align: center;
+  }
     
 
   

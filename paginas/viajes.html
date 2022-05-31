@@ -15,6 +15,9 @@
 
     <title>High Level College - Viajes</title>
 
+    <!--vinculacion de fontawesone - CDN-->
+    <script src="https://kit.fontawesome.com/088b4b5c76.js" crossorigin="anonymous"></script>
+
     <!--vinculacion de boostrap - CSS - forma externa - CDN - sin descargar nada -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
@@ -120,18 +123,18 @@
 
             <div class="container">
                 <div class="row">
-                  <div class="col-12 col-md-4">
+                  <div class="col-12 col-md-4 galeria-viajes">
                     <img class="imgviaje img-fluid img-thumbnail shadow-drop-center" src="../images/Viaje-atlanta1.jpg" alt="Viaje Atlanta 1" width="330px" height="300px">
                   </div>
                   <div class="col-12 col-md-4">
                     <img class="imgviaje img-fluid img-thumbnail shadow-drop-center" src="../images/Viaje-Atlanta2.jpg" alt="Viaje Atlanta 2" width="330px" height="300px">
                   </div>
-                  <div class="col-12 col-md-4">
+                  <div class="col-12 col-md-4 galeria-viajes">
                     <img class="imgviaje img-fluid img-thumbnail shadow-drop-center" src="../images/Viaje-Atlanta3.jpg" alt="Viaje Atlanta 3" width="330px" height="300px">
                   </div>
                 </div>
 
-                <div class="row">
+                <div class="row galeria-viajes">
                     <div class="col-12 col-md-4">
                       <img class="imgviaje img-fluid img-thumbnail shadow-drop-center" src="../images/Viaje-NYC1.jpg" alt="Viaje NYC 1" width="330px" height="300px">
                     </div>
@@ -151,38 +154,98 @@
     </main>
 
     
-    <footer class="footer">
-            
-        <div calss="footer__cajalogo">
-            <img class="footer__logo wobble-hor-bottom" src="../images/imagenesComprimidas/logo college del footer.svg" alt="isologotipo-footer">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-column">
+              <a href="../index.html"><img class="footer_img" src="../images/imagenesComprimidas/logo college del footer.svg" alt="Logotipo footer"></a> 
+          </div>
+          <div class="col-md-4 footer-column">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <span class="footer-title">NAVEGACIÓN</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link orange" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/paginas/nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/paginas/historia.html">HISTORIA</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/paginas/viajes.html">VIAJES</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/paginas/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-column">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <span class="footer-title">HABLEMOS</span>
+              </li>
+              <li class="nav-item">
+                <span class="nav-link text-left"><i class="fas fa-phone"></i> +54 (0223) 451-6801</span>
+              </li>
+              <li class="nav-item">
+                <span class="nav-link text-left"><i class="fas fa-location-dot"></i>Gascon 455 – Mar del Plata</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-left" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"><i class="fas fa-envelope"></i></i>info@highlevelcollege.com.ar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-left" href="https://wa.me/5492235899969?text=%C2%A1Hola!%20Tengo%20una%20cosulta..."><i class="icono-wsp fa-brands fa-whatsapp"></i>Chatea con nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-left" href="/paginas/contacto.html"><i class="fas fa-message"></i></class=></i>Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
         </div>
-    
-        <div class="footer__contacto">
-
-            <div class="footer__direccion">
-                <p>Gascón 455 (7600) | Mar del Plata - Argentina</p> 
-            </div>
-
-
-            <div class="footer__telefono"> 
-                <p>+54 (0223) 451-6801 / 486-7134 </p> 
-            </div>
-
-            
-
-            <div class="footer__mail">
-                <p>high@high.esc.edu.ar</p> 
-            </div>
-
+  
+        <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+  
+        <div class="row text-center">
+          <div class="col-md-4 box">
+            <span class="copyright quick-links">Copyright &copy; HighLevelCollege.edu.ar
+              <script>document.write(new Date().getFullYear())</script>
+            </span>
+          </div>
+          <div class="col-md-4 box">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://wa.me/5492235899969?text=%C2%A1Hola!%20Tengo%20una%20cosulta..." target="blank">
+                  <i class=" fa-brands fa-whatsapp"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 box">
+            <ul class="list-inline quick-links">
+              <li class="list-inline-item">
+                <a href="#">Politica de Privacidad</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terminos de Uso</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-
-        <div class="footer__texto">
-                 <h3 class="texto__ideario"> Ideario</h3>
-
-                <p class="texto__texto">Encaminar a los niños hacia una educación integral, un profundo amor a la Patria y una capacitación bilingüe a nivel de excelencia que combine los valores tradicionales con una instrucción sólida y moderna.</p>
-        </div>
-</div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

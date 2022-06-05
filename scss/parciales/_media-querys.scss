@@ -359,6 +359,7 @@
         font-weight: bold;
         margin-bottom: 1rem;
         text-align: center;
+        padding: 0;
     }
 
     .carousel-item img {
@@ -382,6 +383,7 @@
         background-position:left;
         background-repeat: repeat;
         object-fit: cover;
+        margin-bottom: 3rem;
 
     }
 
@@ -419,6 +421,7 @@
         width:70%;
         height: auto;
         margin-left: 1rem;
+        padding-top: 0;
         
         
     }
@@ -561,6 +564,7 @@
     .fila {
         margin-top: 0.5rem;
         text-align: center;
+        padding: 0;
     }
 
     .subtitulo {
@@ -674,19 +678,22 @@
       .imagennivel {
           height: 160px !important;
       }
-        
-
-      .niveles {
-          padding: 2rem;
-      }
 
       .galeria-viajes {
           padding-left: 1rem;
           padding-right: 1rem;
       }
 
+      .niveles {
+          padding-bottom: 2rem;
+      }
+
       .map-mobile {
           height: 300px;
+      }
+
+      .column-form {
+          padding: 0;
       }
  
     

@@ -984,7 +984,7 @@ ul.social-buttons .ul.social-buttons:hover {
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   right: 10;
   font-size: xx-large;
   color: #2991d6;
@@ -1322,6 +1322,7 @@ ul.social-buttons .ul.social-buttons:hover {
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
+    padding: 0;
   }
   .carousel-item img {
     height: 360px;
@@ -1339,6 +1340,7 @@ ul.social-buttons .ul.social-buttons:hover {
     background-position: left;
     background-repeat: repeat;
     object-fit: cover;
+    margin-bottom: 3rem;
   }
   .titulo-contacto, .titulo-nosotros, .titulo-historia, .titulo-viajes {
     font-size: x-large;
@@ -1366,6 +1368,7 @@ ul.social-buttons .ul.social-buttons:hover {
     width: 70%;
     height: auto;
     margin-left: 1rem;
+    padding-top: 0;
   }
   .imagencolegio {
     width: 100%;
@@ -1469,6 +1472,7 @@ ul.social-buttons .ul.social-buttons:hover {
   .fila {
     margin-top: 0.5rem;
     text-align: center;
+    padding: 0;
   }
   .subtitulo {
     line-height: 25px;
@@ -1553,15 +1557,18 @@ ul.social-buttons .ul.social-buttons:hover {
   .imagennivel {
     height: 160px !important;
   }
-  .niveles {
-    padding: 2rem;
-  }
   .galeria-viajes {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .niveles {
+    padding-bottom: 2rem;
+  }
   .map-mobile {
     height: 300px;
+  }
+  .column-form {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
